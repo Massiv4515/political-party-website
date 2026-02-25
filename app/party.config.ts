@@ -1,6 +1,6 @@
 export const PARTY = {
-  name: "party_name_goes_here",
-  slogan: "party_slogan_goes_here",
+  name: "Digital Political Party",
+  slogan: "Accountability First",
   country: "India",
   primaryColor: "blue", // theme name only
 };

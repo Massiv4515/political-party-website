@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="container h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
-          <div className="h-10 w-10 rounded-2xl bg-gradient-to-br from-[color:var(--color-primary)] to-[color:var(--color-primary-2)]" />
+          <img src="/logo.png" alt="Party Logo" className="h-10 w-10 object-contain"/>
           <div className="leading-tight">
             <div className="font-extrabold tracking-tight">
               {PARTY.name}
