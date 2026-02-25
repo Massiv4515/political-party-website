@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { PARTY } from "../party.config";
+import Image from "next/image";
 
 const navLinks = [
   { href: "/about", label: "About" },
@@ -15,7 +16,7 @@ export default function Navbar() {
       <div className="container h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
-          <img src="/logo.png" alt="Party Logo" className="h-10 w-10 object-contain"/>
+          <Image src="/logo.png" alt="Party Logo" width={40} height={40} className="object-contain"/>
           <div className="leading-tight">
             <div className="font-extrabold tracking-tight">
               {PARTY.name}
